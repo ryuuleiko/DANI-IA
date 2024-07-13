@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Simula una respuesta de la IA
             setTimeout(() => {
                 chatDisplay.removeChild(typingIndicator);
-                fetch('https://raw.githubusercontent.com/progldspn/Daniel-IA/main/response.json')
+                fetch('https://raw.githubusercontent.com/ryuuleiko/DANI-IA/main/response.json')
                     .then(response => response.json())
                     .then(data => {
                         const responses = data.responses;
