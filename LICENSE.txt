@@ -1,16 +1,33 @@
-Copyright (c) [año] [tu nombre o tu organización]
-
 Licencia de Uso Restringido
+1. Propiedad Intelectual
+Todos los derechos, títulos e intereses sobre el código fuente, documentación, y cualquier otro material asociado a este proyecto (en adelante, el "Código") son propiedad exclusiva de ryuuleiko (en adelante, el "Titular"). Esta Licencia de Uso Restringido (en adelante, la "Licencia") otorga al usuario ciertos derechos limitados sobre el Código, pero no transfiere ningún derecho de propiedad intelectual, patente, marca registrada, secreto comercial, o cualquier otro derecho sobre el Código.
 
-1. **Derechos Reservados**: Todos los derechos sobre el código fuente de este proyecto están reservados. No se concede ningún derecho a copiar, modificar, distribuir, vender, o utilizar de cualquier forma el código fuente de este proyecto.
+2. Derechos Reservados
+El Titular se reserva todos los derechos no expresamente otorgados por esta Licencia. El usuario no adquirirá ningún derecho de propiedad intelectual sobre el Código mediante el uso del mismo, y el uso del Código está sujeto a las limitaciones establecidas en esta Licencia.
 
-2. **Prohibición de Uso Comercial**: El uso del código fuente para cualquier propósito comercial está estrictamente prohibido. Esto incluye, pero no se limita a, la venta, la oferta de servicios, o el uso en productos comerciales.
+3. Restricciones de Uso
+a. Uso Comercial Prohibido: El uso del Código para fines comerciales está estrictamente prohibido. Esto incluye, sin limitación, la venta, alquiler, sublicenciamiento, integración en productos comerciales, la oferta de servicios basados en el Código, o cualquier otra forma de explotación comercial. Cualquier intento de utilizar el Código para fines comerciales sin el permiso expreso y por escrito del Titular constituye una violación de esta Licencia y está prohibido.
 
-3. **Prohibición de Modificación**: No se permite modificar, alterar, o derivar el código fuente de este proyecto en ninguna forma. Esto incluye la creación de versiones modificadas o derivadas del código fuente original.
+b. Modificación Prohibida: El usuario no tiene permiso para modificar, adaptar, traducir, descompilar, realizar ingeniería inversa, desensamblar, o derivar trabajos basados en el Código. Esto incluye la creación de versiones modificadas, derivadas o adaptadas del Código. Cualquier modificación o alteración del Código sin el permiso expreso del Titular está prohibida. El usuario debe utilizar el Código en su forma original y no hacer cambios de ninguna índole.
 
-4. **Prohibición de Distribución**: No se permite redistribuir el código fuente original, ni en su forma original ni en forma modificada. Esto incluye la distribución en medios físicos o electrónicos.
+c. Distribución Prohibida: La redistribución del Código, ya sea en su forma original o modificada, está prohibida. Esto incluye la publicación en línea, la transferencia en medios físicos o digitales, y cualquier forma de compartir o divulgar el Código a terceros. Cualquier forma de distribución o transferencia del Código sin el consentimiento expreso del Titular constituye una violación de esta Licencia y está prohibida.
 
-5. **Advertencia Legal**: El software se proporciona "tal cual", sin garantías de ningún tipo, expresas o implícitas, incluyendo, pero no limitándose a, garantías de comerciabilidad, adecuación para un propósito particular y no infracción. En ningún caso, los autores o titulares de derechos serán responsables por cualquier reclamación, daño o otra responsabilidad, ya sea en una acción de contrato, agravio o de otro tipo, que surja de o en conexión con el software o el uso u otros tratos en el software.
+d. Uso Interno y No Comercial: El Código solo puede ser utilizado por el usuario para fines personales, educativos o de investigación no comerciales. Cualquier uso del Código fuera de estos propósitos está prohibido. Esto incluye, sin limitación, el uso del Código en entornos comerciales, de producción, o en cualquier forma de aplicación o software distribuido públicamente o a terceros.
 
-6. **Contacto**: Para obtener permisos adicionales o para consultas relacionadas con el uso de este software, por favor contacta a [tu dirección de contacto].
+4. Limitación de Responsabilidad
+El Código se proporciona "tal cual", sin ninguna garantía, expresa o implícita, sobre el Código. Esto incluye, pero no se limita a, garantías implícitas de comerciabilidad, idoneidad para un propósito particular, y no infracción. El Titular no garantiza que el Código esté libre de errores, seguro, o que cumpla con los requisitos específicos del usuario. En ningún caso, el Titular será responsable de ningún daño directo, indirecto, incidental, especial, ejemplar o consecuente, incluyendo pero no limitándose a, la pérdida de beneficios, interrupción del negocio, pérdida de datos, o cualquier otro daño que surja de o en conexión con el uso del Código, incluso si se ha notificado al Titular de la posibilidad de dichos daños.
 
+5. Aviso de Copyright y Derechos de Autor
+Todos los avisos de copyright, marcas registradas, y derechos de autor deben permanecer intactos en el Código y en cualquier copia o porción del mismo. El usuario no tiene permitido eliminar, modificar o alterar estos avisos. Todos los derechos de autor y de propiedad intelectual relacionados con el Código deben ser reconocidos y respetados. Cualquier uso del Código debe incluir un aviso de copyright que reconozca la propiedad del Titular y no debe sugerir de ninguna manera que el Titular aprueba o patrocina cualquier uso o modificación del Código.
+
+6. Terminación
+El incumplimiento de cualquier término o condición de esta Licencia dará lugar a la terminación automática de la Licencia sin necesidad de notificación adicional. Al momento de la terminación, el usuario deberá cesar inmediatamente el uso del Código y destruir todas las copias en su posesión, ya sea en formato físico o digital. La terminación de la Licencia no afectará a los derechos del Titular a buscar compensación por daños y perjuicios o cualquier otro recurso legal disponible. El Titular se reserva el derecho de tomar cualquier acción legal necesaria para hacer cumplir los términos de esta Licencia y proteger sus derechos de propiedad intelectual.
+
+7. Jurisdicción y Ley Aplicable
+Esta Licencia se regirá e interpretará de acuerdo con las leyes de la República Dominicana y, en particular, las leyes de la provincia de Santo Domingo, sin tener en cuenta sus principios de conflicto de leyes. Cualquier disputa, controversia o reclamo que surja en relación con esta Licencia, su interpretación, o su aplicación, será resuelta exclusivamente en los tribunales competentes de la provincia de Santo Domingo. Las partes aceptan someterse a la jurisdicción exclusiva de dichos tribunales para la resolución de cualquier conflicto que surja en relación con esta Licencia.
+
+8. Resolución de Disputas
+Cualquier disputa, controversia o reclamo que surja de o en relación con esta Licencia, o la violación, terminación o invalidez de la misma, se someterá a mediación en la provincia de Santo Domingo, de acuerdo con las reglas de mediación aplicables. Si la mediación no resuelve la disputa, las partes podrán someter el asunto a arbitraje vinculante de conformidad con las leyes de la República Dominicana. El arbitraje se llevará a cabo en la provincia de Santo Domingo y será realizado por un árbitro designado de mutuo acuerdo por las partes o, en su defecto, por una institución arbitral reconocida en la República Dominicana.
+
+9. Renuncia y Separabilidad
+Ninguna renuncia por parte del Titular a cualquier término o condición de esta Licencia se considerará una renuncia a cualquier otro término o condición de la misma, ni a cualquier término o condición de futuras versiones de esta Licencia. Si alguna disposición de esta Licencia se considera inválida o inaplicable por un tribunal de jurisdicción competente, dicha disposición se interpretará de manera que refleje la intención original del Titular y las disposiciones restantes de esta Licencia permanecerán en pleno vigor y efecto.
