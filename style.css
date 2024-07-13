@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #2c3e50;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #3e4451;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-content {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.white-text {
+    color: #eee !important;
+}
+
+.card-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 1px solid #4a4e59;
+}
+
+#user-input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4a4e59;
+    color: #eee;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#user-input:focus {
+    background-color: #5c616c;
+}
+
+#send-btn {
+    background-color: #61dafb;
+    color: #282c34;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#send-btn:hover {
+    background-color: #45aaf2;
+}
+
+.fixed-action-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.btn-floating {
+    background-color: #f44336;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.btn-floating i {
+    color: white;
+}
+
+.btn-floating:hover {
+    background-color: #e53935;
+}
+
+.user-message,
+.bot-message {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.user-message p,
+.bot-message p {
+    max-width: 70%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.user-message p {
+    background-color: #61dafb;
+    color: #282c34;
+    margin-left: auto;
+}
+
+.bot-message p {
+    background-color: #282c34;
+    color: #eee;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.user-message img,
+.bot-message img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+#typing-indicator {
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.audio-icon {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Estilos para el menú deslizable */
+.sidenav {
+    width: 250px;
+    height: 100%;
+    top: 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+}
+
+.sidenav li {
+    padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.sidenav li:last-child {
+    border-bottom: none;
+}
+
+.sidenav li a {
+    display: flex;
+    align-items: center;
+    color: #333333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidenav li a:hover {
+    background-color: #f5f5f5;
+}
+
+.sidenav li a i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/* Estilos para los íconos del menú deslizable */
+.help-icon {
+    color: #f39c12;
+}
+
+.info-icon {
+    color: #3498db;
+}
+
+/* Estilos para las burbujas de chat */
+.message {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px 0;
+}
+
+.message .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.message .message-text {
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.user-message .message-text {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+    border-bottom-right-radius: 0;
+}
+
+.bot-message .message-text {
+    background-color: #e5e5ea;
+    color: black;
+    border-bottom-left-radius: 0;
+}
+
+/* Estilos para el ícono de menú deslizable */
+.sidenav-trigger-icon {
+    font-size: 36px !important;
+    color: #ffffff !important;
+}
+
+/* Estilos para el botón de voz */
+.voice-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.voice-btn i {
+    vertical-align: middle;
+}

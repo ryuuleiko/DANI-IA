@@ -1,0 +1,26 @@
+{
+    "responses": [
+        {
+            "input_patterns": ["Hola", "Buenos días", "Buenas tardes", "Buenas noches"],
+            "output": "¡Hola! ¿Cómo estás?",
+            "context": "saludo",
+            "mood": "neutral",
+            "additional_info": {
+                "recommendations": "Puedes preguntarme sobre el clima, noticias, o cualquier otra cosa.",
+                "related_topics": ["buenos días", "buenas tardes", "buenas noches"],
+                "possible_scenarios": ["¿Cómo te llamas?", "¿Qué puedes hacer?", "Dime una broma"]
+            }
+        },
+        {
+            "input_patterns": ["¿Cómo estás?", "¿Cómo te sientes?", "¿Qué tal?"],
+            "output": "Estoy aquí para ayudarte con lo que necesites.",
+            "context": "estado",
+            "mood": "neutral",
+            "additional_info": {
+                "recommendations": "Puedes preguntarme sobre tecnología, medicina o psicología.",
+                "related_topics": ["estado de ánimo", "sentimientos"],
+                "possible_scenarios": ["¿Estás bien?", "¿Qué te pasa?", "¿Te sientes bien?"]
+            }
+        }
+    ]
+}

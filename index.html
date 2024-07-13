@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANI</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Dani</h1>
+    <p style="text-align: center; color: white; font-size: 16px;">(Declarative Artificial Neural Intelligence)</p>
+    <div class="container">
+        <div id="chat-container" class="card">
+            <div id="chat-display" class="card-content white-text"></div>
+            <div class="card-action">
+                <input type="text" id="user-input" placeholder="Escribe aquí...">
+                <a class="waves-effect waves-light btn right" id="send-btn">Enviar</a>
+            </div>
+        </div>
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large red" id="reset-btn">
+                <i class="large material-icons">refresh</i>
+            </a>
+        </div>
+    </div>
+    <div id="particles-js"></div>
+    <ul id="slide-out" class="sidenav">
+        <li><a href="info.html"><i class="material-icons info-icon">info</i>Información</a></li>
+        <li><a href="info.html"><i class="material-icons help-icon">help</i>Ayuda</a></li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons large sidenav-trigger-icon">menu</i></a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/string-similarity/umd/string-similarity.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="particles-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
