@@ -1,4 +1,5 @@
 Licencia de Uso Restringido
+
 1. Propiedad Intelectual
 Todos los derechos, títulos e intereses sobre el código fuente, documentación, y cualquier otro material asociado a este proyecto (en adelante, el "Código") son propiedad exclusiva de ryuuleiko (en adelante, el "Titular"). Esta Licencia de Uso Restringido (en adelante, la "Licencia") otorga al usuario ciertos derechos limitados sobre el Código, pero no transfiere ningún derecho de propiedad intelectual, patente, marca registrada, secreto comercial, o cualquier otro derecho sobre el Código.
 
