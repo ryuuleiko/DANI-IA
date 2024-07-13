@@ -1,4 +1,3 @@
-
 # DANI (Declarative Artificial Neural Intelligence)
 
 DANI es una interfaz de chatbot inteligente que permite a los usuarios interactuar con una IA que proporciona respuestas basadas en un archivo JSON. Este proyecto utiliza varias bibliotecas y tecnologías para mejorar la experiencia del usuario y proporcionar respuestas contextuales.
@@ -41,16 +40,32 @@ DANI es una interfaz de chatbot inteligente que permite a los usuarios interactu
 1. **Archivo JSON**: Asegúrate de tener un archivo `responses.json` con la estructura adecuada y súbelo a GitHub. Actualiza la URL en el archivo `script.js` para que apunte a tu archivo JSON.
 
     ```json
-    [
-        {
-            "input_patterns": ["Hola", "Buenos días"],
-            "responses": ["Hola, ¿en qué puedo ayudarte?", "Buenos días, ¿cómo puedo asistirte hoy?"]
-        },
-        {
-            "input_patterns": ["Adiós", "Hasta luego"],
-            "responses": ["Adiós, que tengas un buen día", "Hasta luego, ¡cuídate!"]
-        }
-    ]
+    {
+        "responses": [
+            {
+                "input_patterns": ["Hola", "Buenos días", "Buenas tardes", "Buenas noches"],
+                "output": "¡Hola! ¿Cómo estás?",
+                "context": "saludo",
+                "mood": "neutral",
+                "additional_info": {
+                    "recommendations": "Puedes preguntarme sobre el clima, noticias, o cualquier otra cosa.",
+                    "related_topics": ["buenos días", "buenas tardes", "buenas noches"],
+                    "possible_scenarios": ["¿Cómo te llamas?", "¿Qué puedes hacer?", "Dime una broma"]
+                }
+            },
+            {
+                "input_patterns": ["¿Cómo estás?", "¿Cómo te sientes?", "¿Qué tal?"],
+                "output": "Estoy aquí para ayudarte con lo que necesites.",
+                "context": "estado",
+                "mood": "neutral",
+                "additional_info": {
+                    "recommendations": "Puedes preguntarme sobre tecnología, medicina o psicología.",
+                    "related_topics": ["estado de ánimo", "sentimientos"],
+                    "possible_scenarios": ["¿Estás bien?", "¿Qué te pasa?", "¿Te sientes bien?"]
+                }
+            }
+        ]
+    }
     ```
 
 ## Uso
@@ -71,10 +86,19 @@ DANI es una interfaz de chatbot inteligente que permite a los usuarios interactu
 
 Este proyecto tiene una licencia cerrada para uso no comercial y no modificable.
 
+## Próximas Funcionalidades
+
+Próximamente se añadirá una interfaz web en la cual DANI será el centro de todo. Esta interfaz incluirá:
+
+- Registro de usuario.
+- Nuevas herramientas web.
+- Otras características para mejorar la experiencia del usuario.
+
 ## Créditos
 
 - [Materialize CSS](https://materializecss.com/)
 - [particles.js](https://vincentgarreau.com/particles.js/)
+- [string-similarity.min.js (CDN)](https://cdnjs.cloudflare.com/ajax/libs/string-similarity/4.0.4/string-similarity.min.js)
 
 ---
 
