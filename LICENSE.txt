@@ -1,0 +1,16 @@
+Copyright (c) [año] [tu nombre o tu organización]
+
+Licencia de Uso Restringido
+
+1. **Derechos Reservados**: Todos los derechos sobre el código fuente de este proyecto están reservados. No se concede ningún derecho a copiar, modificar, distribuir, vender, o utilizar de cualquier forma el código fuente de este proyecto.
+
+2. **Prohibición de Uso Comercial**: El uso del código fuente para cualquier propósito comercial está estrictamente prohibido. Esto incluye, pero no se limita a, la venta, la oferta de servicios, o el uso en productos comerciales.
+
+3. **Prohibición de Modificación**: No se permite modificar, alterar, o derivar el código fuente de este proyecto en ninguna forma. Esto incluye la creación de versiones modificadas o derivadas del código fuente original.
+
+4. **Prohibición de Distribución**: No se permite redistribuir el código fuente original, ni en su forma original ni en forma modificada. Esto incluye la distribución en medios físicos o electrónicos.
+
+5. **Advertencia Legal**: El software se proporciona "tal cual", sin garantías de ningún tipo, expresas o implícitas, incluyendo, pero no limitándose a, garantías de comerciabilidad, adecuación para un propósito particular y no infracción. En ningún caso, los autores o titulares de derechos serán responsables por cualquier reclamación, daño o otra responsabilidad, ya sea en una acción de contrato, agravio o de otro tipo, que surja de o en conexión con el software o el uso u otros tratos en el software.
+
+6. **Contacto**: Para obtener permisos adicionales o para consultas relacionadas con el uso de este software, por favor contacta a [tu dirección de contacto].
+
